@@ -33,7 +33,8 @@ const buttonAuth = document.querySelector(".button-auth"),
     category = document.querySelector('.category'),
     modalBody = document.querySelector('.modal-body'),
     modalPrice = document.querySelector('.modal-pricetag'),
-    buttonClearCart = document.querySelector('.clear-cart');
+    buttonClearCart = document.querySelector('.clear-cart'),
+    orderItemTotal = document.querySelector('.food-price').textContent;
 
 const cart = [];
 
